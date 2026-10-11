@@ -1,0 +1,83 @@
+.main {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 8px 24px 64px;
+  display: grid;
+  gap: 56px;
+}
+
+.section {
+  display: grid;
+  gap: 20px;
+  min-width: 0;
+}
+
+.intro {
+  display: grid;
+  gap: 10px;
+  max-width: 820px;
+  padding-top: 16px;
+}
+
+.title {
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.lede {
+  color: var(--ink-2);
+  font-size: 16px;
+  max-width: 70ch;
+}
+
+.controls {
+  display: grid;
+  gap: 12px;
+}
+
+.sectionHead {
+  display: grid;
+  gap: 4px;
+  max-width: 820px;
+}
+.sectionHead h2 { font-size: 20px; }
+.sectionHead p { color: var(--ink-2); font-size: 14px; }
+
+.priorityGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.twoUp {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.empty {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--ring);
+  padding: 32px;
+  color: var(--ink-2);
+}
+
+.footer {
+  border-top: 1px solid var(--line-2);
+  padding: 24px;
+  color: var(--ink-3);
+  font-size: 13px;
+}
+.footer p { max-width: 1272px; margin: 0 auto; }
+
+@media (max-width: 1080px) {
+  .priorityGrid, .twoUp { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .main { padding: 4px 14px 48px; gap: 40px; }
+}

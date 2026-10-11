@@ -1,0 +1,326 @@
+{
+    "method":  "Automated comparison of every cell against the PDF text layer of the cited page, assigning cells to parameter rows and phase columns by x/y position (pdfjs-dist 4.10). Includes BDL, blank, _ and * codes. Not a human review.",
+    "checkedOn":  "2026-10-11",
+    "tables":  [
+                   {
+                       "year":  2023,
+                       "festival":  "Ganesh",
+                       "site":  "Khatlapura ghat",
+                       "page":  26,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2023,
+                       "festival":  "Ganesh",
+                       "site":  "Bairagarh (Sant Hirdaram) kund",
+                       "page":  26,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2023,
+                       "festival":  "Ganesh",
+                       "site":  "Prempura ghat",
+                       "page":  26,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2023,
+                       "festival":  "Ganesh",
+                       "site":  "Rani Kamlapati ghat / Kamla Park kund",
+                       "page":  27,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2023,
+                       "festival":  "Ganesh",
+                       "site":  "Hathaikheda dam / kund",
+                       "page":  27,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2023,
+                       "festival":  "Ganesh",
+                       "site":  "Malikhedi kund",
+                       "page":  27,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2023,
+                       "festival":  "Ganesh",
+                       "site":  "Shahpura lake ghat",
+                       "page":  28,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2023,
+                       "festival":  "Durga",
+                       "site":  "Hathaikheda dam / kund",
+                       "page":  59,
+                       "status":  "auto-checked",
+                       "cellsChecked":  36
+                   },
+                   {
+                       "year":  2023,
+                       "festival":  "Durga",
+                       "site":  "Rani Kamlapati ghat / Kamla Park kund",
+                       "page":  59,
+                       "status":  "auto-checked",
+                       "cellsChecked":  36
+                   },
+                   {
+                       "year":  2023,
+                       "festival":  "Durga",
+                       "site":  "Khatlapura ghat",
+                       "page":  59,
+                       "status":  "auto-checked",
+                       "cellsChecked":  36
+                   },
+                   {
+                       "year":  2023,
+                       "festival":  "Durga",
+                       "site":  "Bairagarh (Sant Hirdaram) kund",
+                       "page":  60,
+                       "status":  "auto-checked",
+                       "cellsChecked":  36
+                   },
+                   {
+                       "year":  2023,
+                       "festival":  "Durga",
+                       "site":  "Prempura ghat",
+                       "page":  60,
+                       "status":  "auto-checked",
+                       "cellsChecked":  36
+                   },
+                   {
+                       "year":  2023,
+                       "festival":  "Durga",
+                       "site":  "Shahpura lake ghat",
+                       "page":  60,
+                       "status":  "auto-checked",
+                       "cellsChecked":  36
+                   },
+                   {
+                       "year":  2023,
+                       "festival":  "Durga",
+                       "site":  "Malikhedi kund",
+                       "page":  61,
+                       "status":  "auto-checked",
+                       "cellsChecked":  36
+                   },
+                   {
+                       "year":  2024,
+                       "festival":  "Durga",
+                       "site":  "Hathaikheda dam / kund",
+                       "page":  23,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2024,
+                       "festival":  "Durga",
+                       "site":  "Rani Kamlapati ghat / Kamla Park kund",
+                       "page":  24,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2024,
+                       "festival":  "Durga",
+                       "site":  "Khatlapura ghat",
+                       "page":  24,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2024,
+                       "festival":  "Durga",
+                       "site":  "Bairagarh (Sant Hirdaram) kund",
+                       "page":  25,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2024,
+                       "festival":  "Durga",
+                       "site":  "Prempura ghat",
+                       "page":  25,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2024,
+                       "festival":  "Durga",
+                       "site":  "Shahpura lake ghat",
+                       "page":  26,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2024,
+                       "festival":  "Durga",
+                       "site":  "Malikhedi kund",
+                       "page":  26,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2024,
+                       "festival":  "Ganesh",
+                       "site":  "Khatlapura ghat",
+                       "page":  69,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2024,
+                       "festival":  "Ganesh",
+                       "site":  "Bairagarh (Sant Hirdaram) kund",
+                       "page":  69,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2024,
+                       "festival":  "Ganesh",
+                       "site":  "Prempura ghat",
+                       "page":  70,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2024,
+                       "festival":  "Ganesh",
+                       "site":  "Rani Kamlapati ghat / Kamla Park kund",
+                       "page":  70,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2024,
+                       "festival":  "Ganesh",
+                       "site":  "Hathaikheda dam / kund",
+                       "page":  71,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2024,
+                       "festival":  "Ganesh",
+                       "site":  "Malikhedi kund",
+                       "page":  71,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2024,
+                       "festival":  "Ganesh",
+                       "site":  "Shahpura lake ghat",
+                       "page":  72,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2025,
+                       "festival":  "Ganesh",
+                       "site":  "Khatlapura ghat",
+                       "page":  28,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2025,
+                       "festival":  "Ganesh",
+                       "site":  "Bairagarh (Sant Hirdaram) kund",
+                       "page":  28,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2025,
+                       "festival":  "Ganesh",
+                       "site":  "Prempura ghat",
+                       "page":  28,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2025,
+                       "festival":  "Ganesh",
+                       "site":  "Rani Kamlapati ghat / Kamla Park kund",
+                       "page":  29,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2025,
+                       "festival":  "Ganesh",
+                       "site":  "Hathaikheda dam / kund",
+                       "page":  29,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2025,
+                       "festival":  "Ganesh",
+                       "site":  "Malikhedi kund",
+                       "page":  29,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2025,
+                       "festival":  "Ganesh",
+                       "site":  "Shahpura lake ghat",
+                       "page":  30,
+                       "status":  "auto-checked",
+                       "cellsChecked":  39
+                   },
+                   {
+                       "year":  2025,
+                       "festival":  "Durga",
+                       "site":  "Hathaikheda dam / kund",
+                       "page":  64,
+                       "status":  "auto-checked",
+                       "cellsChecked":  36
+                   },
+                   {
+                       "year":  2025,
+                       "festival":  "Durga",
+                       "site":  "Rani Kamlapati ghat / Kamla Park kund",
+                       "page":  64,
+                       "status":  "auto-checked",
+                       "cellsChecked":  36
+                   },
+                   {
+                       "year":  2025,
+                       "festival":  "Durga",
+                       "site":  "Khatlapura ghat",
+                       "page":  64,
+                       "status":  "auto-checked",
+                       "cellsChecked":  36
+                   },
+                   {
+                       "year":  2025,
+                       "festival":  "Durga",
+                       "site":  "Prempura ghat",
+                       "page":  65,
+                       "status":  "auto-checked",
+                       "cellsChecked":  36
+                   },
+                   {
+                       "year":  2025,
+                       "festival":  "Durga",
+                       "site":  "Shahpura lake ghat",
+                       "page":  65,
+                       "status":  "auto-checked",
+                       "cellsChecked":  36
+                   }
+               ]
+}

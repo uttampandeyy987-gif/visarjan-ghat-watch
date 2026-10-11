@@ -1,0 +1,92 @@
+.panel {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--ring), var(--shadow);
+  overflow-x: auto;
+  min-width: 0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.table th {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink-2);
+  padding: 12px 10px 10px;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: middle;
+}
+
+.table tbody tr { cursor: pointer; transition: background-color 100ms ease; }
+.table tbody tr:hover { background: var(--surface-2); }
+.table tbody tr:last-child td { border-bottom: 0; }
+
+.selected { background: var(--accent-wash) !important; box-shadow: inset 3px 0 0 var(--deep); }
+
+.rank { width: 36px; color: var(--ink-3); font-variant-numeric: tabular-nums; padding-left: 16px !important; }
+.num { text-align: right !important; white-space: nowrap; }
+
+.siteCell { min-width: 170px; }
+.siteCell > span:last-child { margin-top: 4px; font-size: 12px; }
+
+.siteBtn {
+  all: unset;
+  display: grid;
+  gap: 1px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.siteBtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+.siteName { font-weight: 600; }
+.water { font-size: 12px; color: var(--ink-3); }
+.match { font-weight: 500; color: #8a5d00; }
+
+.ratio {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.bar { width: 40px; height: 4px; }
+.muted { color: var(--ink-3); }
+
+.foot {
+  font-size: 12px;
+  color: var(--ink-3);
+  padding: 10px 16px 14px;
+  border-top: 1px solid var(--line);
+}
+
+@media (max-width: 760px) {
+  .table thead { display: none; }
+  .table, .table tbody, .table tr, .table td { display: block; width: 100%; }
+  .table tbody tr {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px 12px;
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--line);
+  }
+  .table td { border: 0; padding: 0; text-align: left !important; }
+  .table td.rank { display: none; }
+  .siteCell { grid-column: 1 / -1; }
+  .table td[data-label]:not(.siteCell)::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 11px;
+    color: var(--ink-3);
+  }
+  .ratio { justify-content: flex-start; }
+}

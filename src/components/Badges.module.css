@@ -1,0 +1,41 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 9px 3px 7px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.high { background: var(--high-wash); }
+.elevated { background: var(--elevated-wash); }
+.monitor { background: var(--monitor-wash); }
+.insufficient { background: var(--insufficient-wash); }
+
+.evidence {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12.5px;
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+
+.kind {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+.kind_measured { background: var(--surface-2); border-color: var(--line-2); color: var(--ink-2); }
+.kind_calculated { background: var(--accent-wash); color: var(--deep); }
+.kind_ai { background: var(--ai-wash); color: var(--ai); border-color: #d6cfea; }
+.kind_automatic { background: var(--surface-2); color: var(--ink-2); border-color: var(--line-2); }
+.kind_recommendation { background: #f4ecdf; color: #6b4a12; }

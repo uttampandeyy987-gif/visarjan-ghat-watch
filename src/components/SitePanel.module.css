@@ -1,0 +1,103 @@
+.panel {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--ring), var(--shadow);
+  display: grid;
+  position: sticky;
+  top: 96px;
+  max-height: calc(100vh - 112px);
+  overflow-y: auto;
+  min-width: 0;
+}
+
+.head {
+  padding: 18px 20px 14px;
+  display: grid;
+  gap: 4px;
+  border-bottom: 1px solid var(--line);
+}
+
+.titleRow { display: flex; align-items: baseline; gap: 10px; }
+.titleRow h3 { font-size: 20px; }
+.rank {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+.water { font-size: 13px; color: var(--ink-3); }
+.badges { display: flex; gap: 12px; align-items: center; margin-top: 8px; flex-wrap: wrap; }
+
+.block {
+  padding: 14px 20px 16px;
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 10px;
+}
+
+.blockHead {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  color: var(--ink-2);
+  font-weight: 500;
+}
+
+.rule {
+  font-size: 13px;
+  color: var(--ink-2);
+  background: var(--surface-2);
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.reasons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+  font-size: 14px;
+}
+.reasons li { display: grid; grid-template-columns: 14px 1fr; gap: 8px; }
+.reasons svg { margin-top: 5px; }
+.concern svg { fill: var(--high); }
+.data svg { fill: var(--insufficient); }
+.caveat svg { fill: none; stroke: var(--monitor); stroke-width: 2; }
+.caveat p { color: var(--ink-2); }
+
+.link {
+  all: unset;
+  cursor: pointer;
+  font-size: 12.5px;
+  color: var(--deep-2);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  margin-top: 2px;
+  display: inline-block;
+}
+.link:hover { color: var(--accent); }
+.link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+
+.coverage { display: grid; gap: 8px; }
+.covRow { display: grid; grid-template-columns: 38px minmax(60px, 1fr) auto; align-items: center; gap: 10px; }
+.covLabel { font-size: 12.5px; font-weight: 600; }
+.covBar { width: 100%; height: 8px; border-radius: 4px; background: var(--paper-2); }
+.covText { font-size: 12px; color: var(--ink-3); white-space: nowrap; }
+
+.notes { margin: 0; padding-left: 18px; font-size: 12.5px; color: var(--ink-2); display: grid; gap: 3px; }
+
+.printed { font-size: 12.5px; color: var(--ink-2); }
+.printed summary { cursor: pointer; color: var(--deep-2); }
+.printed ul { margin: 6px 0 0; padding-left: 18px; display: grid; gap: 2px; }
+
+.steps { margin: 0; padding-left: 18px; font-size: 14px; display: grid; gap: 4px; }
+
+@media (max-width: 1080px) {
+  .panel { position: static; max-height: none; }
+}
+@media (max-width: 640px) {
+  .covRow { grid-template-columns: 38px 1fr; }
+  .covText { grid-column: 2; white-space: normal; }
+}
